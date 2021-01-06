@@ -1,0 +1,19 @@
+{
+  "name": "microbundle-css-output",
+  "version": "0.1.0",
+  "source": "src/index.jsx",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "esmodule": "dist/index.modern.js",
+  "umd:main": "dist/index.umd.js",
+  "scripts": {
+    "build": "microbundle build"
+  },
+  "peerDependencies": {
+    "preact": "*"
+  },
+  "devDependencies": {
+    "microbundle": "^0.13.0",
+    "preact": "^10.4.7"
+  }
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"index.modern.js","sources":["../src/index.jsx"],"sourcesContent":["import { h } from 'preact';\n\nimport './style.css';\n\nexport default function HelloWorld() {\n    return <h1>Hello, this is a widget!</h1>;\n}\n"],"names":["HelloWorld"],"mappings":"oCAIwBA,IACpB"}
